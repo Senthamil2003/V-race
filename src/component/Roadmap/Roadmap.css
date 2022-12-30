@@ -1,0 +1,28 @@
+.rhome {
+    margin-left: 20%;
+    width: 80%;
+    height: 87.2%;
+    z-index: -1;
+    margin-top: 5.8%;
+    position: absolute;
+}
+.rline1{
+    width: 25%;
+    border-radius: 10px;
+    height:16px;
+    background-image: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+    margin-top: 25%;
+    margin-left: 2.5%;
+}
+.rline2{
+    width: 25%;
+    border-radius: 10px;
+    height:16px;
+    background-image: linear-gradient(195deg, #ffdd00, #fbb034);
+    
+}
+.rimg1{
+    margin-left: 22%;
+    margin-top: 9%;
+    width:1000px;
+}
