@@ -34,9 +34,9 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/student" element={<Nav />} >
             <Route path="/student/dashboard" element={<Dashboard />} />
-            <Route path="/student/acadamics" element={<Testdash />} />
+            <Route path="/student/academics" element={<Testdash />} />
             <Route path="/student/acadamics/feedback" element={<Feedback />} />
-            <Route path="/student/material" element={<Report />} />
+            <Route path="/student/academics/result" element={<Report />} />
             <Route path="/student/roadmap" element={<Roadmap />} />
             
 

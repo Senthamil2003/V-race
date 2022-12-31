@@ -8,63 +8,23 @@ export default class Testdash extends Component {
         return (
             <div className='thome1'>
                 <div className='tstcat'>
-                   <button className='tdb1'>Acadamics</button>
-                   <Link to="/student/acadamics/feedback"><button className='tdb2'>Feedback</button></Link>
-                   
+                   <button className='tdb1'>Previous Report</button>
+                  
                 </div>
                 <div className='tdcont'>
                     <div className='tdtst'>
                         <img src={test} alt="hi" className='tdimg1'/>
                         <div className='tdtxt'>
-                        <p className='tdtstp1'>Regular Knowledge Assesment(English)</p>
-                        <p className='tdtstp2'>8-Aug-2022 09:00 am to  10:00 am</p>
-                       <Link to="/test/beforetst"><button className='tdb3'>Take Test</button></Link> 
+                        <p className='tdtstp1'>Public Speaking Assestment</p>
+                        <p className='tdtstp2'>31-Dec-2022</p>
+                       <Link to="/student/academics/result"><button className='tdb3'>View Result</button></Link> 
                         </div>
                        
                     </div>
 
                     
                 </div>
-                <div className='tdcont'>
-                    <div className='tdtst'>
-                        <img src={test} alt="hi" className='tdimg1'/>
-                        <div className='tdtxt'>
-                        <p className='tdtstp1'>Regular Knowledge Assesment(Maths)</p>
-                        <p className='tdtstp2'>8-Aug-2022 09:00 am to  10:00 am</p>
-                        <button className='tdb3'>Take Test</button>
-                        </div>
-                       
-                    </div>
-
-                    
-                </div>
-                <div className='tdcont'>
-                    <div className='tdtst'>
-                        <img src={test} alt="hi" className='tdimg1'/>
-                        <div className='tdtxt'>
-                        <p className='tdtstp1'>Regular Knowledge Assesment(Physics)</p>
-                        <p className='tdtstp2'>8-Aug-2022 09:00 am to  10:00 am</p>
-                        <button className='tdb3'>Take Test</button>
-                        </div>
-                       
-                    </div>
-
-                    
-                </div>
-                <div className='tdcont'>
-                    <div className='tdtst'>
-                        <img src={test} alt="hi" className='tdimg1'/>
-                        <div className='tdtxt'>
-                        <p className='tdtstp1'>Regular Knowledge Assesment(Chemistry)</p>
-                        <p className='tdtstp2'>8-Aug-2022 09:00 am to 10:00 am</p>
-                        <button className='tdb3'>Take Test</button>
-                        </div>
-                       
-                    </div>
-
-                    
-                </div>
-
+                
 
             </div>
         )
