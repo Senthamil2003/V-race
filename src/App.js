@@ -21,6 +21,7 @@ import Pqstn5 from './component/Testqstn/pubqstn5';
 import Pqstn6 from './component/Testqstn/pubqstn6';
 import Register from './component/signin/Register';
 import Signup from './component/signin/Login';
+import UnderConstruction from './component/Main/underConstruction';
 
 
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/student" element={<Nav />} >
             <Route path="/student/dashboard" element={<Dashboard />} />
+            <Route path="/student/underconstruction" element={<UnderConstruction />} />
             <Route path="/student/academics" element={<Testdash />} />
             <Route path="/student/acadamics/feedback" element={<Feedback />} />
             <Route path="/student/academics/result" element={<Report />} />

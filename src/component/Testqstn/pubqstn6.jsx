@@ -22,7 +22,7 @@ export default function Pubqstn6() {
     for (let i = 0; i < arr.length; i++) {
         sum += parseInt(arr[i]);
     }
-    let avg = (sum/5)
+    let avg = parseInt((sum/30) * 100);
     console.log(avg)
         localStorage.setItem('Pavg',avg)
        
@@ -42,7 +42,7 @@ export default function Pubqstn6() {
     </div>
     <div className='footer'>
         <Link to="/test/main/pqs3"> <button className='sbtn5' >Previous</button></Link>
-        <Link to="/test/main/pqs4">  <button className='sbtn7' onClick={click}>Submit</button></Link>
+        <Link to="/student/academics/result">  <button className='sbtn7' onClick={click}>Submit</button></Link>
 
     </div>
 

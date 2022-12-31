@@ -10,13 +10,21 @@ import ps1 from "../../image/publicspeakorg1.jpg"
 import ps2 from "../../image/publicspeakorg2.jpg"
 import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { useEffect } from 'react';
 
 export default function Report() {
   const [show, setShow] = useState(false);
-
+  const [val,setVal] = useState(1);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  let val=80
+
+
+  useEffect(()=>{
+
+    setVal(localStorage.getItem('Pavg'))
+    console.log(val)
+  })
+ 
   let col=''
   if(val>0){
     if(val<=50){

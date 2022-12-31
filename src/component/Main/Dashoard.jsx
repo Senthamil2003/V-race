@@ -14,19 +14,8 @@ export default class Dashboard extends Component {
       <div className='mhome'>
         <h2 className='dshh1'>What We Do?</h2>
         <div className='mhome1'>
-          <div className='mdd1'>
-          <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={time} className="dashimg1" />
-      <Card.Body>
-        <Card.Title>Presentation</Card.Title>
-        <Card.Text>
-        A presentation conveys information from a speaker to an audience. 
-        </Card.Text>
-        <Button variant="primary">Take Test</Button>
-      </Card.Body>
-    </Card>
-          </div>
-          <div className='mdd1'>
+
+        <div className='mdd1'>
           <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={book} className="dashimg1" />
       <Card.Body>
@@ -38,6 +27,20 @@ export default class Dashboard extends Component {
       </Card.Body>
     </Card>
           </div>
+
+          <div className='mdd1'>
+          <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={time} className="dashimg1" />
+      <Card.Body>
+        <Card.Title>Presentation</Card.Title>
+        <Card.Text>
+        A presentation conveys information from a speaker to an audience. 
+        </Card.Text>
+        <Link to='/student/underconstruction'>  <Button variant="primary">Take Test</Button></Link>  
+      </Card.Body>
+    </Card>
+          </div>
+          
           <div className='mdd1'>
           <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={one} className="dashimg1" />
@@ -46,7 +49,7 @@ export default class Dashboard extends Component {
         <Card.Text>
         One-to-one correspondence, also called a bijective function
         </Card.Text>
-        <Button variant="primary">Take Test</Button>
+    <Link to='/student/underconstruction'>  <Button variant="primary">Take Test</Button></Link>  
         </Card.Body>
     </Card>
           </div>
@@ -58,7 +61,7 @@ export default class Dashboard extends Component {
         <Card.Text>
           Group discussion allow as to share thoughts in a particular group
         </Card.Text>
-      <Button href='/test/main/qs1' variant="primary">Take Test</Button> 
+        <Link to='/student/underconstruction'>  <Button variant="primary">Take Test</Button></Link>  
         </Card.Body>
       </Card>
           </div>
