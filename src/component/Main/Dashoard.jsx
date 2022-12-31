@@ -7,7 +7,7 @@ import calander from "../../image/listen.jpg"
 import customer from "../../image/gd.jpg"
 import one from "../../image/oneonone.jpeg"
 import "./Main.css"
-
+import { Link } from 'react-router-dom'
 export default class Dashboard extends Component {
   render() {
     return (
@@ -34,7 +34,7 @@ export default class Dashboard extends Component {
         <Card.Text>
         Public speaking means that speak in front of a Group of people
         </Card.Text>
-        <Button variant="primary">Take Test</Button>
+      <Link to="/test/beforetst" > <Button variant="primary">Take Test</Button> </Link>
       </Card.Body>
     </Card>
           </div>
@@ -58,7 +58,7 @@ export default class Dashboard extends Component {
         <Card.Text>
           Group discussion allow as to share thoughts in a particular group
         </Card.Text>
-        <Button variant="primary">Take Test</Button>
+      <Button href='/test/main/qs1' variant="primary">Take Test</Button> 
         </Card.Body>
       </Card>
           </div>

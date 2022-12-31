@@ -15,65 +15,27 @@ export default class Test extends Component {
                     <div className='d1'>
                         <h1 className='th1'>Instruction!</h1>
                         <ul className='tsl'>
-                            <li className='tstli'>Fill up your personal details carefully.
+                           
+                            <li className='tstli'>This is just a fun test to evaluate how well you currently communicate.
 
                             </li>
-                            <li className='tstli'>All questions are compulsory.
+                            <li className='tstli'>Dont Stress yourself too much this test will not affect your further navigation throughour website
 
                             </li>
-                            <li className='tstli'>Try to submit the paper in 40-45 minutes.
+                            <li className='tstli'>Your identity and analysis results will not be shared with any external organizations. 
 
                             </li>
-                            <li className='tstli'>You are allowed to submit only once, make sure that you have correctly attempted all the questions before submission.
-
-                            </li>
-                            <li className='tstli'>Make sure you clicked on submit button to successfully complete the test.
+                            <li className='tstli'>This is an optional test, feel free to skip this test and explore our VR session.
 
                             </li>
 
                         </ul>
-                    </div>
-                    <div className='d2'>
-                        <div className='tl1'></div>
-                        <div className='tstcont'>
-                            <h3 className='th2'>Overview</h3>
-                            <hr className='line1'></hr>
-                            <div className='tcont'>
-                                <div className='thold'>
-                                    <p className='hh1'>Questions</p>
-                                    <hr className='line2'/>
-                                    <p className='hp1'>25</p>
-                                </div>
-                                <div className='thold'>
-                                    <p className='hh1'>Sections</p>
-                                    <hr className='line2'/>
-                                    <p className='hp1'>2</p>
-
-                                </div>
-                                <div className='thold'>
-                                    <p className='hh1'>Duration</p>
-                                    <hr className='line2'/>
-                                    <p className='hp1'>30min</p>
-
-                                </div>
-                                <div className='thold'>
-                                    <p className='hh1'>Mark</p>
-                                    <hr className='line2'/>
-                                    <p className='hp1'>25</p>
-                                </div>
-                                
-                            </div>
-                            <hr className='line1'></hr>
-
-                       
-
+                        <div className="footer1">
+                        <Link to="/test/main/pqs1"><button className='ibtn1'>VR session</button></Link>
+                        <Link to="/test/main/pqs1"><button className='ibtn2'>Start Test</button></Link>
                         </div>
-                        <div className='tl1'></div>
-                        <Link to="/test/main/qs1"><button className='tstbtn'>Start Test</button></Link>
-                        
-
-
                     </div>
+                  
 
                 </div>
             </div>
