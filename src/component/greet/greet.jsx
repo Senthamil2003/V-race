@@ -98,6 +98,20 @@ export default function Greet() {
                         </div>
                     </div>
                 </div>
+
+                <div className='div3' id="div2">
+
+<div className="td1">
+<h1 className="th1">What we do ?...</h1>
+    <p className="tp1">We are here to provide support to individuals who are facing hardship in communicationg with others by providing VR practice sessions, study materials and media files.
+    </p>
+</div>
+<div className="td2"><Carosel /></div>
+
+
+
+</div>
+
                 <div className='div4'>
                 <h1 className="fh1">Ace Yourself</h1>
                
@@ -129,22 +143,10 @@ export default function Greet() {
                         </div>
                     </div>
                 </div>
-                <div className='div3' id="div2">
-
-                    <div className="td1">
-                    <h1 className="th1">What we do ?...</h1>
-                        <p className="tp1">We are providing personalized learning materials based on the student hobbies and their interest and
-                            the students can also be able to made their own choice for selecting their course and it is available in audio video and in text format
-                        </p>
-                    </div>
-                    <div className="td2"><Carosel /></div>
+               
 
 
-
-                </div>
-
-
-                <div className='div4' id="div3">
+                <div className='div5' id="div3">
                     <h1 className="fh1">Pricings</h1>
                     <div className="ftdiv1">
                         <div className="fdiv">
@@ -177,15 +179,15 @@ export default function Greet() {
                         </div>
                         <div className="sfoot">
                         <h3 className="fth1">About</h3>
-                          <p className="ftp1">The main goal is to made the education easy for both the student and teachers in elegant manner</p>
+                          <p className="ftp1">The main goal is to help individuals break the fear of communication</p>
                           
 
                         </div>
                         <div className="sfoot">
                         <h3 className="fth1">Services</h3>
                           <p className="ftp1">24/7 customer service</p>
-                          <p className="ftp1">Quality Education</p>
-                          <p className="ftp1">Personalized schedule</p>
+                          <p className="ftp1">VR sessions</p>
+                          <p className="ftp1">Personalized study materials</p>
 
                         </div>
                         <div className="sfoot">
