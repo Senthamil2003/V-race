@@ -6,6 +6,9 @@ import book from "../../image/publicspeak.jpg"
 import calander from "../../image/listen.jpg"
 import customer from "../../image/gd.jpg"
 import one from "../../image/oneonone.jpeg"
+import free from "../../image/free.jpg"
+import premium from "../../image/premium.jpg"
+import elite from "../../image/elite.jpg"
 import teacher from "../../image/teachers.jpg"
 import student from "../../image/student.png"
 
@@ -145,17 +148,17 @@ export default function Greet() {
                     <h1 className="fh1">Pricings</h1>
                     <div className="ftdiv1">
                         <div className="fdiv">
-                            <img src={book} className="fimg1" alt="noimg" />
+                            <img src={free} className="fimg2" alt="noimg" />
                             <p className="fp1">Free</p>
 
                         </div>
                         <div className="fdiv">
-                            <img src={time} className="fimg1" alt="noimg" />
+                            <img src={premium} className="fimg2" alt="noimg" />
                             <p className="fp2">Premium</p>
 
                         </div>
                         <div className="fdiv">
-                            <img src={calander} className="fimg1" alt="noimg" />
+                            <img src={elite} className="fimg2" alt="noimg" />
                             <p className="fp3">Elite</p>
 
                         </div>

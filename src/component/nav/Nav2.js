@@ -28,7 +28,7 @@ export default class Nav2 extends Component {
                         </svg>  <p className='sidep'>Test Yourself</p>
                     </NavLink>
                     <NavLink
-                        to="/student/acadamics"
+                        to="/student/material"
                         style={({ isActive }) => ({
                             color: isActive ? 'white' : 'white',
                             backgroundImage: isActive ? 'linear-gradient(195deg, #49a3f1, #1A73E8)' : '',
@@ -43,7 +43,7 @@ export default class Nav2 extends Component {
                         <p className='sidep'>Test Review</p>
                     </NavLink>
                     <NavLink
-                        to="/student/material"
+                        to="/student/comment"
                         style={({ isActive }) => ({
                             color: isActive ? 'white' : 'white',
                             backgroundImage: isActive ? 'linear-gradient(195deg, #49a3f1, #1A73E8)' : '',

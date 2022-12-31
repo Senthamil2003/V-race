@@ -3,7 +3,7 @@ import limg from "../../image/register.jpeg"
 import { getDatabase, ref, onValue} from "firebase/database";
 import "../../firebase.js"
 import { useState } from 'react';
-import {useNavigate} from "react-router-dom"
+import {Link, useNavigate} from "react-router-dom"
 import "./Login.css"
 export default function Signup() {
 
@@ -53,8 +53,8 @@ if(val) return (
               <br></br>
               <input type="text" className='rf1' value={pass} placeholder='Mobile' onChange={(e)=>{setpass(e.target.value)}}/>
               <br></br>
-              <button className='rgb1' onClick={write}>Login</button>
-              <button className='rgb2' onClick={write}>Signup</button>
+            <button className='rgb1'  onClick={write}>Login</button>
+           <Link to="/register"><button className='rgb2' >Signup</button></Link>
              
             </form>
             </div>

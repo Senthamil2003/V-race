@@ -4,6 +4,7 @@ import { getDatabase, ref, set } from "firebase/database";
 import "../../firebase.js"
 import { useState } from 'react';
 import {useNavigate} from "react-router-dom"
+import simg from "../../image/simg1.png"
 export default function Register() {
     const navigate = useNavigate();
     const [name,setname]=useState("")
@@ -33,7 +34,8 @@ export default function Register() {
   return (
     <div>
         <div className='rgf1'>
-            <form className='rform' onSubmit={hi}>
+        <div className='frmcont1'>
+            <form className='rform1' onSubmit={hi}>
                 <h1 className='rgh1'>Register</h1>
               <input type="text" className='rf1' value={name} onChange={(e)=>{setname(e.target.value)}} placeholder='User Name'/>
               <br></br>
@@ -43,13 +45,14 @@ export default function Register() {
               <br></br>
               <input type="text" className='rf1' value={pass} placeholder='Email' onChange={(e)=>{setpass(e.target.value)}}/>
               <br></br>
-              <button className='rgb1' onClick={write}>Submit</button>
+              <button className='rgb3' onClick={write}>Submit</button>
              
             </form>
+          </div>
 
         </div>
         <div className='rgf2'>
-        <img src={limg} className="regimg1"/>
+        <img src={simg} className="regimg1"/>
 
         </div>
     </div>
