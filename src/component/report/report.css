@@ -10,7 +10,7 @@
 .gph1 {
     width: 60%;
     margin-top: 3%;
-    margin-left: 23%;
+    margin-left: 20%;
     box-shadow: rgba(60, 64, 67, 0.3) 3px 3px 3px 3px;
     border-radius: 20px;
     position: relative;
@@ -21,7 +21,7 @@
 .gph2 {
     width: 60%;
     margin-top: 3%;
-    margin-left: 23%;
+    margin-left: 20%;
     box-shadow: rgba(60, 64, 67, 0.3) 3px 3px 3px 3px;
     border-radius: 20px;
     position: relative;
@@ -29,7 +29,45 @@
     
 
 }
+.gph3 {
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 20%;
+    box-shadow: rgba(60, 64, 67, 0.3) 3px 3px 3px 3px;
+    border-radius: 20px;
+    position: relative;
+    padding: 3%;
+    height:450px;
+    
 
+}
+.g{
+   float:right;
+ 
+  color: rgb(10, 232, 17);
+ font-weight: bold;
+ font-size: 22px;
+}
+.m{
+    text-align: center;
+    color: rgb(232, 169, 10);
+    font-weight: bold;
+    font-size: 22px;
+}
+.w{
+    float:left;
+    color: rgb(233, 39, 39);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.mpcont{
+    margin-top: 8%;
+}
+.rpp1{
+font-size: 19px;
+margin-top: 2%;
+}
 .rp1 {
     font-size: 30px;
     font-weight: bold;
@@ -40,4 +78,111 @@
 .rpv1{
     margin-left: 8%;
    
+}
+.jd{
+  height:600px;
+  margin-top: 38%;
+  
+  
+}
+.rpc1{
+    width:45%;
+    height: 400px;
+   margin-top: 3%;
+    position: absolute;
+    margin-left: 3%;
+}
+.rpimg1{
+    height:380px;
+    border-radius: 10px;
+    width:500px
+    
+
+}
+.rpc2{
+    width:45%;
+    height: 400px;
+    position: absolute;
+    margin-left: 53%;
+}
+.rpp2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 13%;
+}
+.rpbtn1{
+    margin-left: 32.5%;
+    margin-top: 3%;
+    height:45px;
+    width: 200px;
+}
+.rpmh1{
+    font-size: 35px;
+    padding-top: 2%;
+    text-align: center;
+}
+.rpmh2{
+    font-size:30px;
+    padding-top: 15%;
+    text-align: center;
+}
+.rpmtcont1{
+    width:50%;
+    height: 400px;
+   margin-top: 3%;
+    position: absolute;
+    margin-left: 3%;
+    display: flex;
+}
+.rpmtcont2{
+   
+    width:45%;
+    margin-top: 3%;
+    height: 400px;
+    position: absolute;
+    margin-left: 53%;
+}
+.bkcomp1{
+    height:400px;
+    
+}
+.bkcomp2{
+    height:400px;
+    margin-left:10%;
+}
+.rpbkimg{
+    height:200px;
+}
+.bkbtn{
+    margin-left: 25%;
+}
+.rpvid{
+    height:500px;
+    margin-top: 40%;
+    background-color: aliceblue;
+}
+.rpvidc1{
+    height:500px;
+    width:45%;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.rpvidc2{
+    height:500px;
+    width:45%;
+   
+    position: absolute;
+    margin-left: 50%;
+    display: flex;
+    margin-top: 5%;
+}
+.mail{
+    margin-top: 6%;
+    margin-left: 40%;
+}
+.minp{
+    height:45px;
+    width:230px;
+    margin-left: 23%;
 }
