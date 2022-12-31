@@ -175,9 +175,10 @@
 }
 
 .img1 {
-    height: 110px;
+    height: 90px;
     width: 270px;
     margin: 0;
+    margin-left: -20px;
 }
 
 .bi-search {
