@@ -48,13 +48,20 @@ if(val) return (
         <div className='rgf1'>
           <div className='frmcont'>
             <form className='rform' onSubmit={hi}>
-                <h1 className='rgh1'>Login</h1>
+                <h2 className='rgh1'>Login</h2>
               <input type="text" className='rf1' value={mail} onChange={(e)=>{setmail(e.target.value)}} placeholder='User Name'/>
               <br></br>
-              <input type="text" className='rf1' value={pass} placeholder='Mobile' onChange={(e)=>{setpass(e.target.value)}}/>
+              <input type="text" className='rf1' value={pass} placeholder='Password' onChange={(e)=>{setpass(e.target.value)}}/>
               <br></br>
             <button className='rgb1'  onClick={write}>Login</button>
-           <Link to="/register"><button className='rgb2' >Signup</button></Link>
+            <br />
+            <br />
+
+            <h2 className='rgh2'>Signup as</h2>
+
+           <Link to="/register"><button className='rgb4' >Individual</button></Link>
+           <Link to="/register"><button className='rgb4' >Organization</button></Link>
+           <Link to="/register"><button className='rgb4' >Psychiatrist</button></Link>
              
             </form>
             </div>

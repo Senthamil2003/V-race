@@ -31,8 +31,9 @@
 	width:100px;
 	background-image: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
 	margin-top: 5%;
-	margin-left: 4%;
-	position: absolute;
+	margin-left: 20%;
+	margin-right: auto;
+	
 	border-color: aliceblue;
 	color: white;
 	border-radius: 10px;
@@ -44,7 +45,7 @@
 	background-image: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
 	margin-top: 5%;
 	margin-left: 12%;
-	position: absolute;
+	
 	border-color: aliceblue;
 	color: white;
 	border-radius: 10px;
@@ -56,7 +57,7 @@
 	border-color: aliceblue;
 	margin-top: 5%;
 	margin-left: 22%;
-	position: absolute;
+	
 	color: white;
 	border-radius: 10px;
 	background-image: linear-gradient(195deg, rgba(248, 76, 13, 0.708), rgb(208, 56, 79));
@@ -78,12 +79,17 @@
 
 }
 .rgh1{
-	margin-left: 13%;
+	margin-left: 23%;
+
+}
+
+.rgh2{
+	margin-left: 15%;
 
 }
 .frmcont{
 	background-color: rgb(236, 245, 245);
-	height:450px;
+	height:550px;
 	margin-left: 10%;
 	width:80%;
 	border-radius: 30px;
@@ -98,5 +104,25 @@
 	border-radius: 30px;
 	box-shadow: 5px 5px 5px 5px #888888;
 	margin-top: 15%;
+
+}
+
+.signuptxt{
+
+	margin-left: 5%;
+
+}
+
+.rgb4{
+	height:50px;
+	width:105px;
+	border-color: aliceblue;
+	margin-top: 5%;
+	
+	
+	color: white;
+	border-radius: 10px;
+	background-image: linear-gradient(195deg, rgba(248, 76, 13, 0.708), rgb(208, 56, 79));
+	
 
 }

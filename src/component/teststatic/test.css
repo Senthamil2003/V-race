@@ -17,15 +17,16 @@
 }
 
 .d1 {
-    height: 500px;
+    height: 550px;
     width: 44%;
-    position: absolute;
+    
     padding: 2%;
     border: solid;
     margin-top: 2%;
     border-radius: 20px;
     border-color: rgb(146, 152, 152);
-    margin-left: 1%;
+   margin-left: auto;
+   margin-right: auto;
     margin-top: 2%;
 
 
@@ -107,7 +108,9 @@
     color: white;
     border-color: white;
     margin-top: 5%;
-    margin-left: 43%;
+   margin-left: 38.7%;
+   margin-right: auto;
+   position: relative;
 
 }
 
@@ -203,5 +206,39 @@
    
 
     
+
+}
+
+
+
+.ibtn1 {
+    height: 48px;
+    width: 150px;
+    background-color: green;
+   
+    color: white;
+    margin-top: 3%;
+    
+
+}
+
+.ibtn2 {
+    height: 48px;
+    width: 150px;
+    background-color: green;
+   margin-left: 2%;
+    color: white;
+    margin-top: 3%;
+   
+}
+
+
+.footer1 {
+    
+    
+  
+    
+    margin-left: 26%;
+    margin-right: auto;
 
 }
