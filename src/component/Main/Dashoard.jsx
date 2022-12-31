@@ -20,8 +20,7 @@ export default class Dashboard extends Component {
       <Card.Body>
         <Card.Title>Presentation</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        A presentation conveys information from a speaker to an audience. 
         </Card.Text>
         <Button variant="primary">Take Test</Button>
       </Card.Body>
@@ -33,8 +32,7 @@ export default class Dashboard extends Component {
       <Card.Body>
         <Card.Title>Public Speaking</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Public speaking means that speak in front of a Group of people
         </Card.Text>
       <Link to="/test/beforetst" > <Button variant="primary">Take Test</Button> </Link>
       </Card.Body>
@@ -46,8 +44,7 @@ export default class Dashboard extends Component {
       <Card.Body>
         <Card.Title>One-On-One Interraction </Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        One-to-one correspondence, also called a bijective function
         </Card.Text>
         <Button variant="primary">Take Test</Button>
         </Card.Body>
@@ -59,8 +56,7 @@ export default class Dashboard extends Component {
       <Card.Body>
         <Card.Title>Group Discussion</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Group discussion allow as to share thoughts in a particular group
         </Card.Text>
       <Button href='/test/main/qs1' variant="primary">Take Test</Button> 
         </Card.Body>
@@ -74,7 +70,9 @@ export default class Dashboard extends Component {
           </div>
           <div className='mdsd2'>
             <p className='mdp1'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially uncha
+            Listening within the work context is the process by which you gain an understanding of the needs, demands, and preferences of your stakeholders through direct interaction. A stakeholder could be anyone from your boss, a client, customer, co-worker, subordinate, upper management, board member, interviewer, or job candidate.
+
+
             </p>
           </div>
         </div>
