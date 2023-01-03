@@ -44,7 +44,7 @@ export default class Carosel extends Component {
                             <Carousel.Caption className='cap'>
                                 <h3 className='th2'>Materials</h3>
                                 <p className='tp2'>
-                                Top class materils and media files provided by specialized organizations to improve communication skill 
+                                Top class materials and media files provided by specialized organizations to improve communication skill 
                                 </p>
                             </Carousel.Caption>
                         </Carousel.Item>

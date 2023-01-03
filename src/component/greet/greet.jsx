@@ -9,11 +9,8 @@ import one from "../../image/oneonone.jpeg"
 import free from "../../image/free.jpg"
 import premium from "../../image/premium.jpg"
 import elite from "../../image/elite.jpg"
-import teacher from "../../image/teachers.jpg"
-import student from "../../image/student.png"
 
-
-import { Link, useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import "../../font/RockDeath.ttf"
 import "./greet.css"
 
@@ -32,10 +29,10 @@ export default function Greet() {
     const para = {
         fontSize: '46px',
         fontWeight:"bold",
-        textAlign: 'center',
+        textAlign: 'left',
         lineHeight: "56px",
         marginTop: "70px",
-        marginLeft: "75px",
+        marginLeft: "-775px",
         color:"white",
         fontFamily: "sanSerif",
     }
@@ -53,13 +50,10 @@ export default function Greet() {
 
 
     const bdiv = {
-        marginLeft: "31.5%",
+        marginLeft: "-125.5%",
         marginTop: "5%"
     }
     
-
-
-
 
     return (
         <div>
@@ -68,29 +62,13 @@ export default function Greet() {
                     <div>
                         <img src={logo} className="gimg1" alt="noimg" />
                     </div>
-                    <div>
-                        <ul className='list'>
-                          
-                        </ul>
-                    </div>
-
-
-
 
                 </div>
                 <div className="sample"></div>
                 <div className='tot' id="div1">
-                    
-                    <div className='div1'>
-
-                     
-
-                    </div>
                     <div className='div2'>
 
-                        <p style={para} >"LEARNING TODAY,</p>
-                        <p style={para1} >LEADING TOMORROW!"</p>
-
+                        <p style={para} >" V Race Fear "</p>
                         <div style={bdiv}>
 
                             <Link to="/signup"> <button className='b2'>Login</button></Link>
@@ -152,7 +130,7 @@ export default function Greet() {
                         <div className="fdiv">
                             <img src={free} className="fimg2" alt="noimg" />
                             <p className="fp1">Free</p>
-
+                        
                         </div>
                         <div className="fdiv">
                             <img src={premium} className="fimg2" alt="noimg" />
