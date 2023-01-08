@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/a0c5b66f-90a8-43d7-8712-199dddca6566/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/VRace-vr",
+    "appService.deploySubpath": "."
+}
